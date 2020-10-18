@@ -11,7 +11,7 @@ class interest {
 
 //Hardcoder interresser for de to users 
 
-var user1 = new interest("golf", "Batman", "Music", "Red", "Italian");
+var user1 = new interest("golf", "Spiderman", "Painting", "Red", "Italian");
 var user2 = new interest("Batminton", "Batman", "Music", "White", "Italian");
 
 exports.user1Interes = [user1];

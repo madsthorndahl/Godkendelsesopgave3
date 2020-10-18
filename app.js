@@ -75,7 +75,7 @@ res.send(user.freeUser);
     res.send(user.payingUser);
   })
   
-  // herefter laves der CRUD på match!!!!! 
+  // herefter laves der CRUD på match 
   app.get('/user1match', (req, res) => {
     res.send(user.freeUser.match);
   })
@@ -122,14 +122,14 @@ res.send(user.freeUser);
   app.post('/2interestspost', (req, res) => {
     res.send(userInterest.user2Interes);
   })
-  //delete match
+  //delete interests
   app.delete('/1interestsdelete', (req, res) => {
     res.send("har slettet " + userInterest.user1Interes);
   })
   app.delete('/2interestsdelete', (req, res) => {
     res.send("har slettet " + userInterest.user2Interes);
   })
-  //put (update) match
+  //put (update) interests
   app.put('/1interestsput', (req, res) => {
     res.send(userInterest.user1Interes);
   })
